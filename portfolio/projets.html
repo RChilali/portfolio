@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/style.css" rel="stylesheet">
+        <title>projets de Rayane Chilali</title>
+        <link rel="shortcut icon" href="img/Logofull.jpeg">
+    </head>
+
+    <body>
+        <div class="buttonmenu" onclick="menubar(this)">
+            <div class="buttonbarre1"></div>
+            <div class="buttonbarre2"></div>
+            <div class="buttonbarre3"></div>
+        
+            <mon-menu class="menu">
+
+                <!-- menu 1 : parcours -->
+                <div class="itemenu">
+                <a href="./parcours.html"> Parcours </a>
+                </div>
+
+                <!-- menu 2 : experiences -->
+                <div class="itemenu">
+                <a> Experiences </a>
+                </div>
+            
+                <!--menu accueil-->
+                <div class="itemenu">
+                    <a href="./index.html"> Accueil </a>  
+                </div>
+            
+                <!-- menu 3 : competences -->
+            <div class="itemenu">
+                <a href="./competences.html"> Competences </a>
+                </div >
+            
+
+                <!-- menu 4 : projets -->
+                <div class="itemenu1">
+                <a href="./projets.html" > projets </a>
+                </div>
+                
+
+            </mon-menu>
+        </div>
+
+
+        <div id="projetsmain">
+            <div class="projetsblock">
+                 <div class="imgprojets">
+                        <img src="./img/portfolio img.png" alt="photo illustration portfolio">
+                 </div>
+                 <div class="texteprojet">
+                    <div class="titreprojet">
+                        Portfolio
+                    </div>
+
+
+                    <div class="descriptionprojet" >
+                       <div class="description"> Description: projet universitaire mettant en avant mes compétences en web front end</div>
+                        
+                        
+                       <div class="langage"> Langage : HTML,CSS,JS </div>
+
+                    </div>
+                </div>
+
+             </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    </body>
+    <script>
+        function menubar(x) {
+            x.classList.toggle("change");
+        }   
+    </script>
+</html>

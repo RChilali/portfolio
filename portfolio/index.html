@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/style.css" rel="stylesheet">
+        <title>Portfolio de Rayane Chilali</title>
+        <link rel="shortcut icon" href="img/Logofull.jpeg">
+    </head>
+
+    <body>
+        
+        <div class="buttonmenu" onclick="menubar(this)">
+            <div class="buttonbarre1"></div>
+            <div class="buttonbarre2"></div>
+            <div class="buttonbarre3"></div>
+        
+            <mon-menu class="menu">
+
+                <!-- menu 1 : parcours -->
+                <div class="itemenu">
+                <a href="./parcours.html"> Parcours </a>
+                </div>
+
+                <!-- menu 2 : experiences -->
+                <div class="itemenu">
+                <a> Experiences </a>
+                </div>
+            
+                <!--menu accueil-->
+                <div class="itemenu1">
+                    <a href="./index.html"> Accueil </a>  
+                </div>
+            
+                <!-- menu 3 : competences -->
+            <div class="itemenu">
+                <a href="./competences.html"> Competences </a>
+                </div >
+            
+
+                <!-- menu 4 : projets -->
+                <div class="itemenu">
+                    <a href="./projets.html" > projets </a>
+                </div>
+                
+
+            </mon-menu>
+        </div>
+        
+
+
+        <div class="indexcontent">
+
+            <div id="Presentation">
+                <h1>
+                    Rayane Chilali Portfolio <br>
+                </h1>
+                <p1 >
+                    Actuellement en DUT informatique année spéciale à l'IUT de villetaneuse,<br> je suis a la recherche d'un stage. 
+                    <br> <br> 
+                    A votre disposition mon cv, Envoyer moi un message.
+                    <br> <br> 
+                </p1>
+                <p2>
+                    <p2a>
+                        <a href="mailto:chilali.lmc@gmail.com" >
+                        <button id="contact">CONTACT</button>
+                        </a>
+                    </p2a>
+                    <p2b>
+                        <a href="./fichier/CV.rayane.chilali ecole.pdf" target="_blank"> 
+                        <button id="cv">CV</button>
+                        </a>
+                    </p2b>
+                </p2>   
+                
+                
+
+            </div>
+            <div id="mon-image"><img src="./img/Logosemi.jpeg" alt="logo du site" id="imagelogo" >
+            </div>
+
+
+
+        </div>
+
+    
+    </body>
+
+    <script>
+        function menubar(x) {
+            x.classList.toggle("change");
+        }   
+    </script>
+</html>
